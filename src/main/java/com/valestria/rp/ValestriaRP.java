@@ -1,33 +1,31 @@
 package com.valestria.rp;
 
-import com.valestria.rp.items.ModItems;
-
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.registry.ForgeRegistries;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.client.model.obj.OBJLoader;
 
-@Mod(modid = ValestriaRP.MODID, name = ValestriaRP.NAME, version = ValestriaRP.VERSION)
+@Mod(modid = "valestriarp", name = "ValestriaRP", version = "1.0")
 public class ValestriaRP {
 
-    public static final String MODID = "valestriarp";
-    public static final String NAME = "ValestriaRP";
-    public static final String VERSION = "1.0.0";
-
-    @Mod.Instance(MODID)
+    @Mod.Instance("valestriarp")
     public static ValestriaRP instance;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        ModItems.register(ForgeRegistries.ITEMS);
+        // Côté client uniquement : autorise le chargement des .obj du mod
+        if (event.getSide() == Side.CLIENT) {
+            OBJLoader.INSTANCE.addDomain("valestriarp");
+        }
+
+        ModBlocks.registerTileEntities();
+        NetworkRegistry.INSTANCE.registerGuiHandler(instance, new GuiHandler());
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-    }
-
-    @Mod.EventHandler
-    public void postInit(FMLPostInitializationEvent event) {
+        System.out.println("ValestriaRP chargé !");
     }
 }

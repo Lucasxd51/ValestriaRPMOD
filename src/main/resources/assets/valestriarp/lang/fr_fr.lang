@@ -1,3 +1,9 @@
 item.valestriarp.og_kush.name=OG Kush
-item.valestriarp.empty_bag.name=Pochon Vide
+item.valestriarp.empty_bag.name=Pochon vide
 item.valestriarp.tobacco.name=Tabac
+item.valestriarp.cannabis.name=Cannabis
+item.valestriarp.cutter.name=Sécateur
+item.valestriarp.og_kush_bag.name=Pochon d'OG Kush 
+item.valestriarp.cannabis_bag.name=Pochon de cannabis
+item.valestriarp.cigarette.name=Cigarette
+itemGroup.valestria=ValestriaRP

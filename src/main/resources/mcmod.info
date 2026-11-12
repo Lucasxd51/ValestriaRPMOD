@@ -1,10 +1,10 @@
 [
-  {
-    "modid": "valestriarp",
-    "name": "ValestriaRP",
-    "description": "Mod RP Valestria",
-    "version": "1.0.0",
-    "authorList": ["Staff"],
-    "mcversion": "1.12.2"
-  }
+{
+"modid": "valestriarp",
+"name": "ValestriaRP",
+"description": "Mod RP Valestria",
+"version": "1.0.0",
+"authorList": ["Staff"],
+"mcversion": "1.12.2"
+}
 ]

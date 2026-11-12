@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "valestriarp:machine_cig" },
+        "facing=south": { "model": "valestriarp:machine_cig", "y": 180 },
+        "facing=west":  { "model": "valestriarp:machine_cig", "y": 270 },
+        "facing=east":  { "model": "valestriarp:machine_cig", "y": 90 }
+    }
+}

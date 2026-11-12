@@ -1,0 +1,8 @@
+{
+    "smoke_puff": {
+        "category": "player",
+        "sounds": [
+            "valestriarp:smoke_puff"
+        ]
+    }
+}

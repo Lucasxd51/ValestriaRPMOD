@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "mature=true":  { "model": "valestriarp:crop_wild_mature" },
+        "mature=false": { "model": "valestriarp:crop_wild_invalid" }
+    }
+}

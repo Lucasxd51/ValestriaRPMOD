@@ -1,0 +1,6 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "valestriarp:models/block/tobacco_stage3.obj"
+    }
+}

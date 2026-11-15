@@ -1,0 +1,8 @@
+{
+  "loader": "forge:obj",
+  "model": "valestriarp:item/boite_cig0.obj",
+  "textures": {
+    "particle": "valestriarp:items/package_cig",
+    "layer0": "valestriarp:items/package_cig"
+  }
+}

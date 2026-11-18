@@ -1,0 +1,28 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "valestriarp:machine_cig.obj",
+    "custom": { "flip-v": true }
+  },
+  "variants": {
+    "facing": {
+      "north": {},
+      "east":  { "y": 90 },
+      "south": { "y": 180 },
+      "west":  { "y": 270 }
+    },
+    "inventory": [
+      {
+        "transform": {
+          "scale": 0.55,
+          "translation": [-0.25, -0.1, 0],
+          "rotation": [
+            { "x": 30 },
+            { "y": 225 },
+            { "z": 0 }
+          ]
+        }
+      }
+    ]
+  }
+}

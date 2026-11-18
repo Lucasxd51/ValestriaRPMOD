@@ -1,0 +1,13 @@
+item.valestriarp.og_kush.name=OG Kush
+item.valestriarp.empty_bag.name=Empty bag
+item.valestriarp.tobacco.name=Tobacco
+item.valestriarp.cannabis.name=Cannabis
+item.valestriarp.cutter.name=Cutter
+item.valestriarp.og_kush_bag.name=OG Kush Bag
+item.valestriarp.cannabis_bag.name=Cannabis bag
+item.valestriarp.cigarette.name=Cigarette
+item.valestriarp.boite_cig0.name=Empty pack
+item.valestriarp.boite_cig1.name=Package filled
+tile.valestriarp.tobacco_crop.name=Tobacco crop
+tile.valestriarp.machine_cig.name=Tobacco Packaging
+itemGroup.valestria=ValestriaRP

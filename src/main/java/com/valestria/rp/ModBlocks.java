@@ -19,6 +19,10 @@ public class ModBlocks {
             .setRegistryName("valestriarp", "machine_cig")
             .setTranslationKey("valestriarp.machine_cig");
 
+    static {
+        MACHINE_CIG.setCreativeTab(ModItems.VALESTRIA_TAB);
+    }
+
     public static final Block MACHINE_CIG_PART = new BlockMachineCigPart()
             .setRegistryName("valestriarp", "machine_cig_part")
             .setTranslationKey("valestriarp.machine_cig_part");

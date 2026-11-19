@@ -1,7 +1,5 @@
 package com.valestria.rp;
 
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.model.obj.OBJLoader;
 
 public class ClientProxy extends CommonProxy {
@@ -12,10 +10,7 @@ public class ClientProxy extends CommonProxy {
 
         // Permet au jeu de charger les .obj du mod
         OBJLoader.INSTANCE.addDomain("valestriarp");
-
-        ModelLoader.setCustomModelResourceLocation(ModItems.EMPTY_BOX, 0,
-            new ModelResourceLocation("valestriarp:empty_box_open", "inventory"));
-        ModelLoader.setCustomModelResourceLocation(ModItems.PACKAGE_FILLED, 0,
-            new ModelResourceLocation("valestriarp:package_filled", "inventory"));
+        // Les modèles d'items (empty_box, package_filled...) sont enregistrés une seule fois
+        // dans ClientModelHandler (ModelRegistryEvent) pour éviter les références à des modèles inexistants.
     }
 }

@@ -1,5 +1,8 @@
 {
   "variants": {
-    "normal": { "model": "valestriarp:empty" }
+    "facing=north": { "model": "valestriarp:empty" },
+    "facing=south": { "model": "valestriarp:empty" },
+    "facing=east":  { "model": "valestriarp:empty" },
+    "facing=west":  { "model": "valestriarp:empty" }
   }
 }
